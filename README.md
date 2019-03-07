@@ -1,9 +1,9 @@
-#Objective
+# Objective
 Voice control to shutdown / hibernate PC with combinition of Amazon Alexa, IFTTT, PowerShell script, Task Scheduler, and OneDrive/DropBox
 
 
 
-##Salutation
+## Salutation
 This script is an modified version of [MaxAnderson95's Shutdown-PC-via-IFTTT](https://github.com/MaxAnderson95/Shutdown-PC-via-IFTTT) script by adding in If-Elseif-Else statement so that more use cases can be add in easily.
 
 Currently I am using it to Shutdown and Hibernate my PC.
@@ -13,7 +13,7 @@ Currently I am using it to Shutdown and Hibernate my PC.
 * IFTTT should be already connected to OneDrive/DropBox
 * OneDrive/DropBox should be already logged in and running (synchronizing)
 
-##Steps
+## Steps
 ### IFTTT Setup
 1. Login to IFTTT, Click on New Applet
 
