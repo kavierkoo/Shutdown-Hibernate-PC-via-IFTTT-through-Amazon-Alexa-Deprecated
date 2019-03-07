@@ -80,6 +80,10 @@ Currently I am using it to Shutdown and Hibernate my PC.
 
 9. Click OK 
 
+10. Click Windows button, type PowerShell, Right click "Run as administrator"
+
+11. Insert Set-ExecutionPolicy Unrestricted and type A
+
 ### How it work
 1. Speak the magic phrase
 2. Amazon Alexa will create a file in OneDrive/DropBox
