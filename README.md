@@ -69,20 +69,25 @@ Currently I am using it to Shutdown and Hibernate my PC.
 <img src="https://i.imgur.com/C0UqQ9U.png" >
 
 7. In "Trigger" Tab, Click "New", Choose/Insert
-* Begin the task:  At startup
+* Begin the task:  At Logon
 * Tick: Enabled
-<img src="https://i.imgur.com/4UgzJZN.png" >
+<img src="https://i.imgur.com/klXU0Xg.png" >
 
 8. In "Action" Tab, Click "New", Change/Insert
 * Action: Start a program
 * Program/script: powershell.exe -file "Path_to_downloaded_Powershell_script"
 <img src="https://i.imgur.com/QwvV3mA.png" >
 
-9. Click OK 
+9. In "Settings" Tab, Select
+* If the task is already running, then the following rules applies: Do not start a new instance
+* Follow below image
+<img src="https://i.imgur.com/Ix2XAhB.png" >
 
-10. Click Windows button, type PowerShell, Right click "Run as administrator"
+10. Click OK 
 
-11. Insert Set-ExecutionPolicy Unrestricted and type A
+11. Click Windows button, type PowerShell, Right click "Run as administrator"
+
+12. Insert Set-ExecutionPolicy Unrestricted and type A
 
 ### How it work
 1. Speak the magic phrase
