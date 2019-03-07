@@ -81,7 +81,7 @@ Currently I am using it to Shutdown and Hibernate my PC.
 9. In "Settings" Tab, Select
 * If the task is already running, then the following rules applies: Do not start a new instance
 * Follow below image
-<img src="https://i.imgur.com/Ix2XAhB.png" >
+<img src="https://i.imgur.com/v1wW2LS.png" >
 
 10. Click OK 
 
