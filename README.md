@@ -20,28 +20,28 @@ Currently I am using it to Shutdown and Hibernate my PC.
 2. Click on "✚ this"
 
 3. Search and Choose "Amazon Alexa"
-<img src="https://i.imgur.com/qvynHRo.png" width="480">
+<img src="https://i.imgur.com/qvynHRo.png" >
 
 4. Choose "Say a specific phrase"
-<img src="https://i.imgur.com/jMsEVjV.png" width="480">
+<img src="https://i.imgur.com/jMsEVjV.png" >
 
 5. What Phrase: Insert your desire phrase to shutdown, Click "Create Trigger"
-<img src="https://i.imgur.com/dQZtxYh.png" width="480">
+<img src="https://i.imgur.com/dQZtxYh.png" >
 
 6. Click on "✚ that"
 
 7. Search and Choose "OneDrive" or "DropBox"
-<img src="https://i.imgur.com/u1lk3nF.png" width="480">
+<img src="https://i.imgur.com/u1lk3nF.png">
 
 8. Choose "Create text file"
-<img src="https://i.imgur.com/Wwc5cuE.png" width="480">
+<img src="https://i.imgur.com/Wwc5cuE.png">
 
 9. Complete action fields
 * Filename: "shutdown" (If file name changed here, you should change PowerShell script's file name too)
 * Folder Path: Desire path (Will be use in "Computer Setup" Step 2 below.)
 * Content: anything as long as not blank
 * Click Create action
-<img src="https://i.imgur.com/xTxpdvb.png" width="480">
+<img src="https://i.imgur.com/xTxpdvb.png">
 
 10. Click Finish
 
@@ -109,12 +109,12 @@ Remove-Item -Path "$SearchDirectory\your_new_filename" -Force -ErrorAction Silen
 
 * After line 25,
 ```
-	elseif(Test-Path -Path "$SearchDirectory\your_new_filename")
-		{
-			Remove-Item -Path "$SearchDirectory\your_new_filename"
-			YOUR_NEW_COMMAND
-			$FileCheck = $True	
-		}
+elseif(Test-Path -Path "$SearchDirectory\your_new_filename")
+{
+	Remove-Item -Path "$SearchDirectory\your_new_filename"
+	YOUR_NEW_COMMAND
+	$FileCheck = $True	
+}
 ```
 
 3. Restart your computer or go to Task Scheduler, End and Run the task.
