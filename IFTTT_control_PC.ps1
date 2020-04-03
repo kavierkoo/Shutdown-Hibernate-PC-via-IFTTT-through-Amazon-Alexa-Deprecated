@@ -1,5 +1,7 @@
 #Change the SearchDirectory with your OneDrive/DropBox directory
 $SearchDirectory = "C:\Users\xxx\OneDrive\Amazon Alexa\"
+
+#Scan Frenquency in Seconds
 $SleepTime = 1
 
 #Removes the file from the directory, in case the file was not deleted. Sets the error action in case the file is not present.
@@ -29,5 +31,6 @@ Do {
 	{
 		$FileCheck = $False
 	}
+	Start-Sleep -Seconds $SleepTime
 }
 Until ($FileCheck -eq $True)
