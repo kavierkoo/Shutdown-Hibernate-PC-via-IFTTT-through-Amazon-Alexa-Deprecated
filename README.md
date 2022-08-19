@@ -3,6 +3,11 @@ Voice control to shutdown / hibernate PC with combinition of Amazon Alexa, IFTTT
 
 [Video Demo](https://youtu.be/TcwjvSS7EWc)
 
+## Deprecated
+This repository is deprecated.
+Instead of using Wake-on-LAN function to wake PCs, I am using PCIe Wifi Remote Control On/Off switch for my PCs. 
+There're plenty of brands out there support it with a relatively cheap cost (Tuya / eWeLink) and is able to directly integrate with IoT Platforms like Home Assitant / Alexa.
+
 ## Salutation
 This script is an modified version of [MaxAnderson95's Shutdown-PC-via-IFTTT](https://github.com/MaxAnderson95/Shutdown-PC-via-IFTTT) script by adding in If-Elseif-Else statement so that more use cases can be add in easily.
 
