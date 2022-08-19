@@ -5,8 +5,11 @@ Voice control to shutdown / hibernate PC with combinition of Amazon Alexa, IFTTT
 
 ## Deprecated
 This repository is deprecated.
+
 Instead of using going through the effort through IFTTT,
+
 I am now using PCIe Wifi Remote Control On/Off switch for my PCs. 
+
 There're plenty of brands out there support it with a relatively cheap cost (Tuya / eWeLink) and is able to directly integrate with IoT Platforms like Home Assitant / Alexa.
 
 ## Salutation
